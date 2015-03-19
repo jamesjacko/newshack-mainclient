@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/git/jquery.mobile-git.css">
+		<link rel="stylesheet" href="assets/style.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script>
+        <script type="text/javascript" src="assets/hashids.js"></script>
+        <script type="text/javascript" src="assets/ismyimageloaded.js"></script>
+        <script type="text/javascript" src="assets/scripts.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div data-role="page" id="p1">
+
+		<div data-role="popup" id="loading" data-overlay-theme="a" data-theme="c" data-dismissible="true" style="max-width:300px;" class="ui-corner-all" data-history="false">
+                <div data-role="header" class="ui-header ui-bar-c">
+                     <h1>Finding Location</h1>
+
+                </div>
+                <div data-role="content" data-theme="d" class="ui-corner-bottom ui-content">
+              
+                    <div class="ui-grid-a">
+                        
+                        <div class="ui-block-b" style="width: 15%; margin-top:9px"><a href="#" data-role="button" data-icon="delete" data-iconpos="notext" data-rel="back">Close</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-role="header" data-position="fixed">
+                 <h1>Yma Rwan</h1>
+
+            </div>
+            <div data-role="content"></div>
+            <div data-role="footer" data-position="fixed">
+                 <h1>Footer</h1>
+
+            </div>
+        </div>
+        <!-- Page 2 -->
+        <div data-role="page" id="p2">
+            
+            <div data-role="header" data-position="fixed"> <a href="#about" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="flip" data-icon="info" data-theme="b">About</a>
+
+                 <h1>Header - Page 2</h1>
+
+            </div>
+            <div data-role="content">
+            	
+            </div>
+            <div data-role="footer" data-position="fixed">
+                 <h1>Footer</h1>
+
+            </div>
+        </div>
+        <!-- Page 3 -->
+        <div data-role="page" id="p3">
+            
+            <div data-role="header" data-position="fixed"> <a href="#about" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="flip" data-icon="info" data-theme="b">About</a>
+
+                 
+
+            </div>
+            <div data-role="content">
+            	<p id="title"></p>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                 <h1>Footer</h1>
+
+            </div>
+        </div>
+	</body>
+</html>

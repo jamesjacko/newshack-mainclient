@@ -1,0 +1,18 @@
+.article-title{
+	position: relative;
+	margin:5px 0;
+}
+.article-title img{
+	width:100%;
+}
+.article-title span{
+	position: absolute;
+	bottom:0px;
+	right:0px;
+	background: #FFF;
+	opacity: 0.9;
+	display: block;
+	width: 70%;
+	padding:10px;
+	text-align: right;
+}
